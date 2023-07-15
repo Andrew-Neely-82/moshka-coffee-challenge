@@ -5,6 +5,7 @@ const NavbarRight = () => {
         <li>
           <a href="#navbar">Coffee</a>
         </li>
+        <span className="square" />
         <li>
           <a href="#navbar">Find us</a>
         </li>
