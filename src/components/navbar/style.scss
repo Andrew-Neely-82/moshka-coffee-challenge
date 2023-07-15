@@ -1,0 +1,70 @@
+.Navbar__ {
+  position: sticky;
+  inset: 0 0;
+  display: flex;
+  justify-content: center;
+  height: 5rem !important;
+  width: 100%;
+  background: #2e2e2e;
+  height: fit-content;
+  z-index: 1000;
+
+  .NavbarLeft__ {
+    justify-content: flex-end;
+
+    a {
+    }
+  }
+
+  .NavbarMiddle__ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background: white;
+    box-shadow: 0 0 1em 0 rgba(0 0 0 / 0.75);
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+    padding-block: 5rem;
+
+    svg {
+      height: 1.5rem;
+      width: 1.5rem;
+      margin-top: 10px;
+    }
+  }
+
+  .NavbarRight__ {
+    justify-content: flex-start;
+  }
+
+  .NavbarLeft__,
+  .NavbarRight__ {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    color: white;
+    padding: 2rem;
+
+    ul {
+      display: flex;
+
+      li {
+        list-style: none;
+        padding: 1em;
+
+        a {
+          color: white;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+            text-underline-offset: 0.5em;
+          }
+        }
+      }
+    }
+  }
+}
