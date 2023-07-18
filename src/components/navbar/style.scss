@@ -43,6 +43,7 @@
     text-decoration: none;
     padding-block: 5rem;
     overflow: hidden;
+    box-shadow: 0 0 1em rgba(0 0 0 / 0.75);
     transition: background 0.5s, color 0.5s; // Add transition properties
 
     svg {
