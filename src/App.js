@@ -1,4 +1,4 @@
-import { Navbar, Main } from "./components/export";
+import { Navbar, Main, Gallery } from "./components/export";
 import "./App.scss";
 
 const App = () => {
@@ -6,6 +6,7 @@ const App = () => {
     <div className="App">
       <Navbar />
       <Main />
+      <Gallery />
     </div>
   );
 };
