@@ -23,19 +23,24 @@ const Gallery = () => {
       <div className="Gallery__header">
         <h3>Gallery</h3>
       </div>
-      <div className="Gallery__container">
+      <div className="Gallery__wrapper">
         <LeftArrow onClick={handleLeftClick} />
-        {images.map((img, key) => {
-          const isSelected = selectedImg === key;
-          const props = {
-            className: isSelected ? "selected" : "not-selected",
-            src: img.src,
-            alt: img.alt,
-            key: key,
-            onClick: () => handleImageClick(key),
-          };
-          return <img {...props} />;
-        })}
+        <div className="Gallery__wrapper_container">
+          {images.map((img, key) => {
+            const isSelected = selectedImg === key;
+            const props = {
+              className: isSelected ? "selected" : "not-selected",
+              src: img.src,
+              key: key,
+              onClick: () => handleImageClick(key),
+            };
+            return (
+              <div className="image-container">
+                <img {...props} alt={img.alt} />
+              </div>
+            );
+          })}
+        </div>
         <RightArrow onClick={handleRightClick} />
       </div>
     </div>
