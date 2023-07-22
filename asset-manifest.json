@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/moshka-coffee-challenge/static/css/main.11407215.css",
+    "main.js": "/moshka-coffee-challenge/static/js/main.cb7d07c1.js",
+    "index.html": "/moshka-coffee-challenge/index.html",
+    "main.11407215.css.map": "/moshka-coffee-challenge/static/css/main.11407215.css.map",
+    "main.cb7d07c1.js.map": "/moshka-coffee-challenge/static/js/main.cb7d07c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11407215.css",
+    "static/js/main.cb7d07c1.js"
+  ]
+}
